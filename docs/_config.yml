@@ -1,0 +1,17 @@
+title: SScript Documentation
+description: SScript engine docs for Fabric servers
+remote_theme: just-the-docs/just-the-docs
+color_scheme: dark
+search_enabled: true
+heading_anchors: true
+aux_links:
+  "SScript Repository": "https://github.com/your-org/sscript"
+nav_sort: case_insensitive
+
+# Syntax highlighting
+markdown: kramdown
+kramdown:
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    line_numbers: false
+highlighter: rouge

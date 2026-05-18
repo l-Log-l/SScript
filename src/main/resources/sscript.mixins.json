@@ -1,0 +1,15 @@
+{
+	"required": true,
+	"package": "ai.log.sscript.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ServerPlayerEntityMixin",
+		"ServerPlayerInteractionManagerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
